@@ -1,0 +1,90 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": " "
+  },
+  "logo": {
+    "source": "~/Pictures/iso.png",
+    "type": "kitty",
+    "width": 20
+  },
+  "modules": [
+    // "title",
+    {
+      "type": "custom",
+      "key": " ",
+      "format": " ",
+      "keyColor": "bright_red"
+    },
+    {
+      "type": "custom",
+      "key": "┣━━━━━━━━━━━━ ━━━━━━━━━━━━┫",
+      "format": " ",
+      "keyColor": "bright_blue"
+    },
+    {
+      "type": "host",
+      "key": "  Host        ┃",
+      "format": "{2}"
+    },
+    {
+      "type": "os",
+      "key": "  os   ",
+      "keyColor": "bright_blue",
+      "format": "{2}"
+    },
+    {
+      "type": "kernel",
+      "key": "  ker  ",
+      "keyColor": "bright_blue",
+      "format": "{2}"
+    },
+    {
+      "type": "shell",
+      "key":"  sh   ",
+      "keyColor": "bright_blue",
+      "format": "{3}"
+    },
+    {
+      "type": "wm",
+      "key": "  de   ",
+      "keyColor": "bright_blue",
+      "format": "{1}"
+    },
+    {
+      "type": "packages",
+      "key": "  pkgs ",
+      "keyColor": "bright_blue",
+      "format": "{1}"
+    },
+    {
+      "type": "uptime",
+      "key": "  up   ",
+      "keyColor": "bright_blue"
+    },
+    {
+      "type": "custom",
+      "key": "┣━━━━━━━━ ale@arch ━━━━━━━┫",
+      "format": " "   
+      // ━┛
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+   
+    // "wmtheme",
+    // "theme",
+    // "icons",
+    // "cursor",
+    // "terminalfont",
+    // "swap",
+    // "disk",
+    // "localip",
+    // "battery",
+    // "poweradapter",
+    // "locale",
+    // "break",
+  ]
+}
